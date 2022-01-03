@@ -3,6 +3,6 @@ module.exports = {
     once: true,
     async execute(client) {
         console.log(`Je suis prêt !`);
-        client.user.setActivity(`${client.user.tag}`, { type: "WATCHING" });
+        client.user.setActivity(client.user.tag, { type: "WATCHING" });
     }
 };
